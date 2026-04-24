@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Don't allow indexing of private or useless files (good practice)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /admin/
+Disallow: /config/
+
+# Sitemap location (IMPORTANT for SEO)
+Sitemap: https://teencare.vercel.app/sitemap.xml
